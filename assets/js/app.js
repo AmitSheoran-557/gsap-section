@@ -1,7 +1,7 @@
 const tl = gsap.timeline();
 const mm = gsap.matchMedia();
 
-mm.add("(min-width:1537.98px)", () => {
+mm.add("(min-width:1600.98px)", () => {
     gsap.set(".content-img-1", {
         opacity: 0,
         top: "24%",
@@ -228,7 +228,7 @@ mm.add("(min-width:1537.98px)", () => {
     })
 });
 
-mm.add("(min-width:1280.98px) and (max-width:1537.98px)", () => {
+mm.add("(min-width:1280.98px) and (max-width:1600.98px)", () => {
     gsap.set(".content-img-1", {
         opacity: 0,
         top: "24%",
