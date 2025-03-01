@@ -311,18 +311,16 @@ mm.add("(min-width:1280.98px) and (max-width:1600.98px)", () => {
     ScrollTrigger.create({
         trigger: ".section-1",
         start: "top top",
-        end: "400%",
+        end: "300%",
         pin: true,
         animation: tl,
         scrub: 2,
     });
 
-
     tl.fromTo(".content-img-1", {
         opacity: 0,
     }, {
         opacity: 1,
-
     }, 0);
 
     tl.fromTo(".triangle-img", {

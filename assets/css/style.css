@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     padding: 0;
@@ -7,8 +6,31 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    font-family: "Raleway", sans-serif;
+}
+ 
+@font-face {
+    font-family: Neue Machina;
+    src: url("./assets/fonts/NeueMachina-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
 }
 
-.bg-green{
+@font-face {
+    font-family: Neue Machina;
+    src: url("./assets/fonts/PPNeueMachina-InktrapUltrabold.otf");
+    font-weight: 700;
+    font-style: normal;
+}
+
+.neue-font {
+    font-family: "Neue Machina", sans-serif;
+}
+
+.bg-green {
     background-color: #7EE49C80;
+}
+
+.custom-shadow {
+    box-shadow: 0px 4px 41px 0px #4281EE70;
 }
