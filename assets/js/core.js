@@ -16,11 +16,7 @@ mm.add("(min-width:767.98px)", () => {
     }, {
         opacity: 1,
     }, 0.25);
-    tl.fromTo(".img-content-1", {
-        opacity: 0,
-    }, {
-        opacity: 1,
-    }, 0.25);
+    
     tl.fromTo(".card-1-common-content", {
         opacity: 0,
     }, {
