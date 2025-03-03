@@ -11,12 +11,17 @@ mm.add("(min-width:767.98px)", () => {
         scrub: 3,
     });
 
+   
     tl.fromTo(".text-content-1", {
         opacity: 0,
     }, {
         opacity: 1,
     }, 0.25);
-    
+    tl.fromTo(".line", {
+        width: "0",
+    }, {
+        width: "12%",
+    }, 0.25);
     tl.fromTo(".card-1-common-content", {
         opacity: 0,
     }, {
@@ -32,6 +37,11 @@ mm.add("(min-width:767.98px)", () => {
     }, {
         opacity: 1,
     }, 1.25);
+    tl.fromTo(".line", {
+        width: "12%",
+    }, {
+        width: "24%",
+    }, 1.25);
     tl.fromTo(".text-content-2", {
         opacity: 1,
     }, {
@@ -41,6 +51,11 @@ mm.add("(min-width:767.98px)", () => {
         opacity: 0,
     }, {
         opacity: 1,
+    }, 2.30);
+    tl.fromTo(".line", {
+        width: "24%",
+    }, {
+        width: "36%",
     }, 2.30);
     tl.fromTo(".text-content-3", {
         opacity: 1,
@@ -52,6 +67,11 @@ mm.add("(min-width:767.98px)", () => {
     }, {
         opacity: 1,
     }, 3.75);
+    tl.fromTo(".line", {
+        width: "36%",
+    }, {
+        width: "49%",
+    }, 3.75);
     tl.fromTo(".text-content-4", {
         opacity: 1,
     }, {
@@ -62,6 +82,11 @@ mm.add("(min-width:767.98px)", () => {
     }, {
         opacity: 1,
     }, 4.75);
+    tl.fromTo(".line", {
+        width: "49%",
+    }, {
+        width: "60%",
+    }, 4.75);
     tl.fromTo(".text-content-5", {
         opacity: 1,
     }, {
@@ -71,6 +96,11 @@ mm.add("(min-width:767.98px)", () => {
         opacity: 0,
     }, {
         opacity: 1,
+    }, 5.75);
+    tl.fromTo(".line", {
+        width: "60%",
+    }, {
+        width: "72%",
     }, 5.75);
     tl.fromTo(".text-content-6", {
         opacity: 1,
@@ -97,6 +127,11 @@ mm.add("(min-width:767.98px)", () => {
     }, {
         opacity: 1,
     }, 6.55);
+    tl.fromTo(".line", {
+        width: "72%",
+    }, {
+        width: "85%",
+    }, 6.55);
     tl.fromTo(".img-content-2", {
         opacity: 1,
     }, {
@@ -111,6 +146,11 @@ mm.add("(min-width:767.98px)", () => {
         opacity: 0,
     }, {
         opacity: 1,
+    }, 7.75);
+    tl.fromTo(".line", {
+        width: "85%",
+    }, {
+        width: "100%",
     }, 7.75);
     tl.fromTo(".card-3-content", {
         opacity: 0,
@@ -135,6 +175,11 @@ mm.add("(max-width:767.98px)", () => {
     }, {
         opacity: 1,
     }, 0.25);
+    tl.fromTo(".line", {
+        width: "0",
+    }, {
+        width: "12%",
+    }, 0.25);
     tl.fromTo(".img-content-1", {
         opacity: 0,
     }, {
@@ -157,6 +202,11 @@ mm.add("(max-width:767.98px)", () => {
     }, {
         opacity: 1,
     }, 1.25);
+    tl.fromTo(".line", {
+        width: "12%",
+    }, {
+        width: "24%",
+    }, 1.25);
     tl.fromTo(".text-content-2", {
         opacity: 1,
     }, {
@@ -166,6 +216,11 @@ mm.add("(max-width:767.98px)", () => {
         opacity: 0,
     }, {
         opacity: 1,
+    }, 2.30);
+    tl.fromTo(".line", {
+        width: "24%",
+    }, {
+        width: "36%",
     }, 2.30);
     tl.fromTo(".text-content-3", {
         opacity: 1,
@@ -177,6 +232,11 @@ mm.add("(max-width:767.98px)", () => {
     }, {
         opacity: 1,
     }, 3.75);
+    tl.fromTo(".line", {
+        width: "36%",
+    }, {
+        width: "49%",
+    }, 3.75);
     tl.fromTo(".text-content-4", {
         opacity: 1,
     }, {
@@ -187,6 +247,11 @@ mm.add("(max-width:767.98px)", () => {
     }, {
         opacity: 1,
     }, 4.75);
+    tl.fromTo(".line", {
+        width: "49%",
+    }, {
+        width: "60%",
+    }, 4.75);
     tl.fromTo(".text-content-5", {
         opacity: 1,
     }, {
@@ -196,6 +261,11 @@ mm.add("(max-width:767.98px)", () => {
         opacity: 0,
     }, {
         opacity: 1,
+    }, 5.75);
+    tl.fromTo(".line", {
+        width: "60%",
+    }, {
+        width: "72%",
     }, 5.75);
     tl.fromTo(".text-content-6", {
         opacity: 1,
@@ -222,6 +292,11 @@ mm.add("(max-width:767.98px)", () => {
     }, {
         opacity: 1,
     }, 6.55);
+    tl.fromTo(".line", {
+        width: "72%",
+    }, {
+        width: "85%",
+    }, 6.55);
     tl.fromTo(".img-content-2", {
         opacity: 1,
     }, {
@@ -236,6 +311,11 @@ mm.add("(max-width:767.98px)", () => {
         opacity: 0,
     }, {
         opacity: 1,
+    }, 7.75);
+    tl.fromTo(".line", {
+        width: "85%",
+    }, {
+        width: "100%",
     }, 7.75);
     tl.fromTo(".card-3-content", {
         opacity: 0,
