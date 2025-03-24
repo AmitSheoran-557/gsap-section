@@ -18,3 +18,16 @@ gsap.from(cardImages, {
         scrub: 3,
     }
 });
+ 
+gsap.from(".heading", {
+    y: -100,  
+    opacity: 0,  
+    duration: 2, 
+    ease: "power4.out",  
+    scrollTrigger: {
+        trigger: '.section-1', 
+        start: "top 50%",
+        end: "top 0%", 
+        scrub: 3, 
+    }
+});
