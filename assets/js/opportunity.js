@@ -16,6 +16,5 @@ gsap.from(cardImages, {
         start: "top 70%",
         end: "top 0%",
         scrub: 3,
-        markers: true
     }
 });
