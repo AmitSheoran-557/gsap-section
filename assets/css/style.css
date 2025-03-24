@@ -31,16 +31,23 @@
     background-color: #7EE49C80;
 }
 
+.bg-dark-blue {
+    background-color: #191423;
+}
+
 .bg-light-green {
     background-color: #6FFFA8;
 }
-.bg-purple{
+
+.bg-purple {
     background-color: #6621E9;
 }
-.bg-light-pink{
+
+.bg-light-pink {
     background-color: #FFABC7;
 }
-.bg-dark-teal{
+
+.bg-dark-teal {
     background-color: #026070;
 }
 
